@@ -1,12 +1,12 @@
-# Luke's config for the Zoomer Shell
+# Originally by Luke [ https://github.com/LukeSmithxyz ], config for the Zoomer Shell
 
 # Enable colors and change prompt:
 autoload -U colors && colors
 PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
 
 # History in cache directory:
-HISTSIZE=10000
-SAVEHIST=10000
+HISTSIZE=1000
+SAVEHIST=1000
 HISTFILE=~/.cache/zsh/history
 
 # Basic auto/tab complete:
